@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(rgba(228, 16, 16, 0.6),rgba(255, 238, 0, 0.6)),url('../images/pic1.jpg');
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
@@ -24,7 +23,7 @@ body{
     height: 100px;
     border-radius: 50%;
     position: absolute;
-    top: -15%;
+    top: -10%;
     left: calc(85% - 50%);
     
 }

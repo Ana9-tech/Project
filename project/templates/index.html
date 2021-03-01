@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
-</head>
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <script src="https://kit.fontawesome.com/af562a2a63.js" crossorigin="anonymous"></script>
+  </head>
 <body>
     <section>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -46,6 +49,341 @@
             </div>
           </nav>
     </section>
+
+
+    <header>
+      <!-- contact content -->
+      <div class="header-content-top">
+        <div class="content">
+          <span><i class="fas fa-phone-square-alt"></i> (00)0000-0000</span>
+          <span><i class="fas fa-envelope-square"></i>email@email.com.br</span>
+        </div>
+      </div>
+      <!-- / contact content -->
+      <div class="container">
+        <!-- logo -->
+        <strong class="logo"><i class="fas fa-heart"></i></strong>
+        <!-- open nav mobile -->
+    
+        <!--search -->
+        <label class="open-search" for="open-search">
+          <i class="fas fa-search"></i>
+                <input class="input-open-search" id="open-search" type="checkbox" name="menu" />
+        <div class="search">
+          <button class="button-search"><i class="fas fa-search"></i></button>
+          <input type="text" placeholder="What are you looking for?" class="input-search"/>
+        </div>
+        </label>
+        <!-- // search -->
+        <nav class="nav-content">
+          <!-- nav -->
+          <ul class="nav-content-list">
+            <li class="nav-content-item account-login">
+              <label class="open-menu-login-account" for="open-menu-login-account">
+    
+                <input class="input-menu" id="open-menu-login-account" type="checkbox" name="menu" />
+    
+                <i class="fas fa-user-circle"></i><span class="login-text">Hello, Sign in <strong>Create Account</strong></span> <span class="item-arrow"></span>
+    
+                <!-- submenu -->
+                <ul class="login-list">
+                  <li class="login-list-item"><a href="https://www.cupcom.com.br/">My account</a></li>
+                  <li class="login-list-item"><a href="https://www.cupcom.com.br/">Create account</a></li>
+                  <li class="login-list-item"><a href="https://www.cupcom.com.br/">logout</a></li>
+                  </label>
+                </ul>
+            </li>
+            <li class="nav-content-item"><a class="nav-content-link" href="https://www.cupcom.com.br/"><i class="fas fa-heart"></i></a></li>
+            <li class="nav-content-item"><a class="nav-content-link" href="https://www.cupcom.com.br/"><i class="fas fa-shopping-cart"></i></a></li>
+            <!-- call to action -->
+          </ul>
+        </nav>
+      </div>
+      <!-- nav navigation commerce -->
+      <div class="nav-container">
+        <nav class="all-category-nav">
+          <label class="open-menu-all" for="open-menu-all">
+            <input class="input-menu-all" id="open-menu-all" type="checkbox" name="menu-open" />
+            <span class="all-navigator"><i class="fas fa-bars"></i> <span>All category</span> <i class="fas fa-angle-down"></i>
+              <i class="fas fa-angle-up"></i>
+            </span>
+    
+            <ul class="all-category-list">
+              <li class="all-category-list-item"><a href="https://www.cupcom.com.br/" class="all-category-list-link">Smartphones<i class="fas fa-angle-right"></i></a>
+                <div class="category-second-list">
+                  <ul class="category-second-list-ul">
+                    <li class="category-second-item"><a href="https://www.cupcom.com.br/">Iphone 10</a></li>
+                    <li class="category-second-item"><a href="https://www.cupcom.com.br/">Galaxy Note 10</a></li>
+                    <li class="category-second-item"><a href="https://www.cupcom.com.br/">Motorola One </a></li>
+                    <li class="category-second-item"><a href="https://www.cupcom.com.br/">Galaxy A80 </a></li>
+                    <li class="category-second-item"><a href="https://www.cupcom.com.br/">Galaxy M </a></li>
+                    <li class="category-second-item"><a href="https://www.cupcom.com.br/">Huaway P30 </a></li>
+                  </ul>
+    
+                  <div class="img-product-menu"><img src="https://i.ibb.co/Vvndkmy/banner.jpg"></div>
+                  </div>
+              </li>
+              <li class="all-category-list-item"><a href="https://www.cupcom.com.br/" class="all-category-list-link">Furniture <i class="fas fa-angle-right"></i></a></li>
+              <li class="all-category-list-item"><a href="https://www.cupcom.com.br/" class="all-category-list-link">Toys<i class="fas fa-angle-right"></i></a></li>
+              <li class="all-category-list-item"><a href="https://www.cupcom.com.br/" class="all-category-list-link">Computing<i class="fas fa-angle-right"></i></a></li>
+              <li class="all-category-list-item"><a href="https://www.cupcom.com.br/" class="all-category-list-link">Games<i class="fas fa-angle-right"></i></a></li>
+              <li class="all-category-list-item"><a href="" class="all-category-list-link">Automotive<i class="fas fa-angle-right"></i></a></li>
+    
+            </ul>
+          </label>
+    
+        </nav>
+        <nav class="featured-category">
+          <ul class="nav-row">
+            <li class="nav-row-list"><a href="https://www.cupcom.com.br/" class="nav-row-list-link">Smartphones</a></li>
+            <li class="nav-row-list"><a href="https://www.cupcom.com.br/" class="nav-row-list-link">furniture</a></li>
+            <li class="nav-row-list"><a href="https://www.cupcom.com.br/" class="nav-row-list-link">Toys</a></li>
+            <li class="nav-row-list"><a href="https://www.cupcom.com.br/" class="nav-row-list-link">Computing</a></li>
+            <li class="nav-row-list"><a href="https://www.cupcom.com.br/" class="nav-row-list-link">Games</a></li>
+            <li class="nav-row-list"><a href="https://www.cupcom.com.br/" class="nav-row-list-link">Automotive</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+<!----------------------------------- carousel-----------------------------> 
+
+<div class="slider-container">
+  <div class="left-slide">
+    <div style="background-color: #b99f8a">
+      <h1>Pareos</h1>
+      <p>new collection</p>
+    </div>
+    <div style="background-color: #354f32">
+      <h1>Swimsuits</h1>
+      <p>new collection</p>
+    </div>
+    <div style="background-color: #657e85">
+      <h1>Crop Tops</h1>
+      <p>new collection</p>
+    </div>
+    <div style="background-color: #2b2e32">
+      <h1>Accessories</h1>
+      <p>new collection</p>
+    </div>
+  </div>
+  <div class="right-slide">
+    <div
+      style="
+        background-image: url('https://images.unsplash.com/photo-1567640157569-f93dc2275420?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+      "
+    ></div>
+    <div
+      style="
+        background-image: url('https://images.unsplash.com/photo-1552996923-5063f7db50ee?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+      "
+    ></div>
+    <div
+      style="
+        background-image: url('https://images.unsplash.com/photo-1559992490-51463933f67e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80');
+      "
+    ></div>
+    <div
+      style="
+        background-image: url('https://images.unsplash.com/photo-1561076722-85adfb3195cb?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80');
+      "
+    ></div>
+  </div>
+  <div class="action-buttons">
+    <button class="down-button">
+      <i class="fas fa-arrow-down"></i>
+    </button>
+    <button class="up-button">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </div>
+</div>
+
+<!-------------featured categories--------------->
+<div class="categories">
+  <div class="small-container">
+
+      <div class="row">
+          <div class="col-3">
+              <img src="{{url_for('static', filename='images/image.jpg')}}"> 
+          </div>
+          <div class="col-3">
+              <img src="{{url_for('static', filename='images/image.jpg')}}"> 
+          </div> 
+          <div class="col-3">
+              <img src="{{url_for('static', filename='images/image.jpg')}}"> 
+          </div>
+      </div>
+  </div>
+  </div>
+  <!-------------------product grid------------------------>
+
+  
+
+<!-----------------------testimonial-------------->
+<div class="testimonial">
+  <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <i class="fa fa-quote-left" >quote</i>
+          <p>edrctfvgybhjntfvgybhjnedrtfgvybhsedrcfvgdrftvgsedrc
+              sedrcftvgbhndrcfgvbhjxdcfgvbhxdcfgvbh jnsdfghjnxcvvbn
+              dfghjcvbnmrxdfgvbjhnkmldrgvybhjnkmxdcfgvh
+          </p>
+              <div class="rating">
+                  <i class="fa fa-star" >yet</i>
+                  <i class="fa fa-star" >yet</i>
+                  <i class="fa fa-star" >yet</i>
+                  <i class="fa fa-star" >yet</i>
+                  <i class="fa fa-star-o" >yet</i>
+              </div>
+              <img src="product1.jpg">
+              <h3>Ana Muraya</h3>
+          </div>
+          <div class="col-3">
+              <i class="fa fa-quote-left" >quote</i>
+              <p>edrctfvgybhjntfvgybhjnedrtfgvybhsedrcfvgdrftvgsedrc
+                  sedrcftvgbhndrcfgvbhjxdcfgvbhxdcfgvbh jnsdfghjnxcvvbn
+                  dfghjcvbnmrxdfgvbjhnkmldrgvybhjnkmxdcfgvh
+              </p>
+              <div class="rating">
+                  <i class="fa fa-star" >yet</i>
+                  <i class="fa fa-star" >yet</i>
+                  <i class="fa fa-star" >yet</i>
+                  <i class="fa fa-star" >yet</i>
+                  <i class="fa fa-star-o" >yet</i>
+              </div>
+              <img src="product1.jpg">
+              <h3>Ana Muraya</h3>
+          </div>
+          <div class="col-3">
+              <i class="fa fa-quote-left" >quote</i>
+              <p>edrctfvgybhjntfvgybhjnedrtfgvybhsedrcfvgdrftvgsedrc
+                  sedrcftvgbhndrcfgvbhjxdcfgvbhxdcfgvbh jnsdfghjnxcvvbn
+                  dfghjcvbnmrxdfgvbjhnkmldrgvybhjnkmxdcfgvh
+              </p>
+              <div class="rating">
+                  <i class="fa fa-star" >yet</i>
+                  <i class="fa fa-star" >yet</i>
+                  <i class="fa fa-star" >yet</i>
+                  <i class="fa fa-star" >yet</i>
+                  <i class="fa fa-star-o" >yet</i>
+              </div>
+              <img src="product1.jpg">
+              <h3>Ana Muraya</h3>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!----------------------------------- footer-----------------------------> 
+
+<section>
+  <h1>Cool Responsive Footer</h1>
+  <div class="dummy-text">
+      <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br/><br/>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+      </p>
+  </div>
+</section>
+
+<footer>
+ <div>
+      <span class="logo">iTechnology</span>
+ </div>
+
+ <div class="row">
+      <div class="col-3">                
+          <div class="link-cat" onclick="footerToggle(this)">
+              <span class="footer-toggle"></span>
+              <span class="footer-cat">Solution</span>
+          </div>
+          <ul class="footer-cat-links">
+              <li><a href=""><span>Interprise App Development</span></a></li>
+              <li><a href=""><span>Android App Development</span></a></li>
+              <li><a href=""><span>ios App Development</span></a></li>
+          </ul>
+      </div>
+      <div class="col-3">
+          <div class="link-cat" onclick="footerToggle(this)">
+              <span class="footer-toggle"></span>
+              <span class="footer-cat">Industries</span>
+          </div>
+          <ul class="footer-cat-links">
+              <li><a href=""><span>Healthcare</span></a></li>
+              <li><a href=""><span>Sports</span></a></li>
+              <li><a href=""><span>ECommerce</span></a></li>
+              <li><a href=""><span>Construction</span></a></li>
+              <li><a href=""><span>Club</span></a></li>
+          </ul>
+      </div>
+      <div class="col-3">
+          <div class="link-cat" onclick="footerToggle(this)">
+              <span class="footer-toggle"></span>
+              <span class="footer-cat">Quick Links</span>
+          </div>
+          <ul class="footer-cat-links">
+              <li><a href=""><span>Reviews</span></a></li>
+              <li><a href=""><span>Terms & Condition</span></a></li>
+              <li><a href=""><span>Disclaimer</span></a></li>
+              <li><a href=""><span>Site Map</span></a></li>
+          </ul>
+      </div>
+      <div class="col-3" id="newsletter">
+          <span>Stay Connected</span>
+          <form id="subscribe">
+              <input type="email" id="subscriber-email" placeholder="Enter Email Address"/>
+              <input type="submit" value="Subscribe" id="btn-scribe"/>
+          </form>
+          
+          <div class="social-links social-2">
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-linkedin-in"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-tumblr"></i></a>
+              <a href=""><i class="fab fa-reddit-alien"></i></a>
+          </div>
+
+          <div id="address">
+              <span>Office Location</span>
+              <ul>
+                  <li>
+                      <i class="far fa-building"></i>
+                      <div>Los Angeles<br/>
+                      Office 9B, Sky High Tower, New A Ring Road, Los Angeles</div>
+                  </li>
+                  <li>
+                      <i class="fas fa-gopuram"></i>
+                      <div>Delhi<br/>
+                      Office 150B, Behind Sana Gate Char Bhuja Tower, Station Road, Delhi</div>
+                  </li>
+              </ul>
+          </div>
+          
+      </div>
+      <div class="social-links social-1 col-6">
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <a href=""><i class="fab fa-linkedin-in"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-tumblr"></i></a>
+          <a href=""><i class="fab fa-reddit-alien"></i></a>
+      </div>
+ </div>
+ <div id="copyright">
+     &copy; All Rights Reserved 2019-2020
+ </div>
+ <div id="owner">
+     <span>
+         Designed by <a href="https://www.codingtuting.com">CodingTuting.Com</a>
+     </span>
+ </div>
+</footer>
+
+
+
+    <script src="{{url_for('static', filename='js/index.js')}}"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
 </body>
